@@ -1,0 +1,13 @@
+id: blaze.demo
+name: Demo
+version: 1.0.0
+description: This is an example Blaze module
+url: https://github.com/dinhquochan/blaze-demo-module
+author: Dinh Quoc Han
+author_url: https://dinhquochan.com
+autoload:
+    Blaze\\Demo\\: src/
+providers:
+    - Blaze\\Demo\\DemoServiceProvider
+views:
+    demo: resource/views
